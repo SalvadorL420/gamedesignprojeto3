@@ -1,0 +1,10 @@
+{
+  "_resourceType": "font",
+  "id": "2e435fc4-ca32-4996-8cfe-a82906762677",
+  "name": "spr_wall_torch02",
+  "symbol": "font_spr_wall_torch02",
+  "width": 128,
+  "height": 32,
+  "filename": "spr_wall_torch02.png",
+  "mapping": {}
+}

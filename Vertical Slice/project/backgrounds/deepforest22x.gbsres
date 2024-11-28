@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "838fc412-4947-4915-bc32-4d0ebcc99695",
+  "name": "DeepForest22x",
+  "symbol": "bg_deepforest22x",
+  "width": 64,
+  "height": 36,
+  "imageWidth": 512,
+  "imageHeight": 288,
+  "filename": "DeepForest22x.png",
+  "tileColors": "",
+  "autoColor": false
+}

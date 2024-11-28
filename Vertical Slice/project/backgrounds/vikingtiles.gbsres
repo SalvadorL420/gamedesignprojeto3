@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "65efe99d-594b-4222-b919-b9e94af49ad2",
+  "name": "VikingTiles",
+  "symbol": "bg_vikingtiles",
+  "width": 48,
+  "height": 52,
+  "imageWidth": 384,
+  "imageHeight": 416,
+  "filename": "VikingTiles.png",
+  "tileColors": "",
+  "autoColor": false
+}
