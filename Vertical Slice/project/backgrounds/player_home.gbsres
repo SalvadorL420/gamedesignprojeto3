@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1cc33908-1902-4e2e-8318-dfecb11b13cb",
+  "name": "player home",
+  "symbol": "bg_player_home",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "player home.png",
+  "tileColors": ""
+}
