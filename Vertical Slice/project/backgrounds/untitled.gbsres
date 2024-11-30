@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "1cc33908-1902-4e2e-8318-dfecb11b13cb",
-  "name": "player home",
-  "symbol": "bg_player_home",
+  "id": "2f44070b-ef83-4ee2-bb4c-f29cfca1a85a",
+  "name": "Untitled",
+  "symbol": "bg_untitled",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "player home.png",
+  "filename": "Untitled.png",
   "tileColors": "",
   "autoColor": false
 }

@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "1cc33908-1902-4e2e-8318-dfecb11b13cb",
-  "name": "player home",
-  "symbol": "bg_player_home",
+  "id": "222adb18-c4ee-4b8c-a076-788472beaef7",
+  "name": "first menu",
+  "symbol": "bg_first_menu",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "player home.png",
+  "filename": "first menu.png",
   "tileColors": "",
   "autoColor": false
 }
