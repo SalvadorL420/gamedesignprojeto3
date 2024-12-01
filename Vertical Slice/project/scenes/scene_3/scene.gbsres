@@ -1,22 +1,108 @@
 {
   "_resourceType": "scene",
-  "id": "3df12da6-29cd-44e7-a76b-518f247355f7",
-  "_index": 2,
+  "id": "5326f81e-cedb-4086-bb07-7c489f0249b9",
+  "_index": 0,
   "name": "Scene 3",
-  "backgroundId": "1a31d5ab-9874-42a7-82b1-4ce2ad922d2f",
+  "backgroundId": "1cc33908-1902-4e2e-8318-dfecb11b13cb",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "005+0f!008+0f2+008+0fc+007+0f3+009+0f!007+0f4+006+0f3+007+0f4+006+0f4+006+0f4+006+0f3+004+0f9+002+0f9+008+0f4+00d0+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
-  "x": 744,
+  "symbol": "scene_1",
+  "x": 488,
   "y": 248,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What happened to \nme i remember ",
+          "being in the boat\nand now i am here"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.8,
+        "closeDelayFrames": 30
+      },
+      "id": "395f9726-f1ff-4499-96c1-c939d82e9b61"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "61e24558-e294-4a45-8ae3-0a568f0d82fc"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "9c94ad09-e5ff-461e-b511-32aaa04a4b55",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "16110519-7f02-45ef-a9a2-fad26efbe36f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ragnar you are \nawake!",
+          "We are under attack,\ncome with me ",
+          "i will give you a \nsword"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30
+      },
+      "id": "e7e8ea04-92e4-4bbc-9960-831f6e6b1724"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "13d98d5c-1360-4703-accf-bc7414235e51"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a3374bba-dd8a-4b1b-a949-33ad07fd6ee6"
 }
