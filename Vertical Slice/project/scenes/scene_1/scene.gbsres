@@ -53,7 +53,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "player"
+        "actorId": "player",
+        "__collapse": true
       },
       "id": "6e875f88-7520-4356-ba42-638a18be62b9"
     }
@@ -62,5 +63,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "b4563491-6517-48ee-abb6-7ff6ae6177fd"
+  "playerSpriteSheetId": "a3374bba-dd8a-4b1b-a949-33ad07fd6ee6"
 }

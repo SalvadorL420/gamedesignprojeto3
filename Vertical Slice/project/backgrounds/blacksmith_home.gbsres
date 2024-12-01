@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b809cbfb-40b5-4109-997e-3bc6e36ff66b",
+  "name": "blacksmith home",
+  "symbol": "bg_blacksmith_home",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "blacksmith home.png",
+  "tileColors": ""
+}
