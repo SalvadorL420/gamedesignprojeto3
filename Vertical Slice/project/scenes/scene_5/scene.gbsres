@@ -44,7 +44,7 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 0.5,
+        "closeDelayTime": 0.8,
         "closeDelayFrames": 30
       },
       "id": "cba4399f-42fe-407f-bda2-7799e219a562"
