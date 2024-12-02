@@ -13,7 +13,7 @@
   "collisions": "001e+0f!00149+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 376,
+  "x": 256,
   "y": 464,
   "script": [
     {
@@ -30,7 +30,7 @@
           "We came from the\nsea...",
           "to look for new\nriches and glory"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -44,7 +44,7 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 0.8,
+        "closeDelayTime": 1,
         "closeDelayFrames": 30
       },
       "id": "cba4399f-42fe-407f-bda2-7799e219a562"
@@ -59,14 +59,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "5326f81e-cedb-4086-bb07-7c489f0249b9",
+        "sceneId": "b1b60dfa-312d-4669-a171-1a0e1ee88510",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 11
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 10
         },
         "direction": "",
         "fadeSpeed": "2"
