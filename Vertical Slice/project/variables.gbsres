@@ -1,4 +1,25 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "hasSword",
+      "symbol": "var_hassword"
+    },
+    {
+      "id": "1",
+      "name": "isAttacking",
+      "symbol": "var_isattacking"
+    },
+    {
+      "id": "2",
+      "name": "Enemy1hp",
+      "symbol": "var_enemy1hp"
+    },
+    {
+      "id": "3",
+      "name": "enemy2Hp",
+      "symbol": "var_enemy2hp"
+    }
+  ]
 }

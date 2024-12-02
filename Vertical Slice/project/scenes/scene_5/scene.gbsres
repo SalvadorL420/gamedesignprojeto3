@@ -10,12 +10,24 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 744,
   "y": 248,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+      "args": {
+        "actorId": "3d67469f-c833-44b7-b706-8e4e97239608",
+        "x": 7,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "id": "b72b24f8-2f77-4ab6-8723-2d2bc00cf8b1"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

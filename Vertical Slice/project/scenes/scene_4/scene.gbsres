@@ -104,29 +104,13 @@
         },
         "y": {
           "type": "number",
-          "value": 16
-        },
-        "moveType": "horizontal",
-        "useCollisions": true
-      },
-      "id": "5b4fe98a-c359-47f1-8e15-af0b8e9bd0eb"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "cb5f6670-24b4-40eb-96f6-e97cc7220427",
-        "x": {
-          "type": "number",
           "value": 17
         },
-        "y": {
-          "type": "number",
-          "value": 2
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "moveType": "horizontal",
+        "useCollisions": true,
+        "__collapse": false
       },
-      "id": "bf4b44ca-f838-4634-8908-9e3481238317"
+      "id": "5b4fe98a-c359-47f1-8e15-af0b8e9bd0eb"
     },
     {
       "command": "EVENT_ACTOR_ACTIVATE",
@@ -134,6 +118,23 @@
         "actorId": "$self$"
       },
       "id": "13d98d5c-1360-4703-accf-bc7414235e51"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "c2c25e1b-3818-4076-9bf7-ea49855397dc"
     }
   ],
   "playerHit1Script": [],
