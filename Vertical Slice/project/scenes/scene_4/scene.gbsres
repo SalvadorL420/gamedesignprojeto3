@@ -20,8 +20,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "What happened to \nme i remember ",
-          "being in the boat\nand now i am here"
+          "what a beautiful \nday in the colony",
+          "peace... i think i \nlike it "
         ],
         "__section": "behavior",
         "avatarId": "",
@@ -37,9 +37,9 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 1.3,
+        "closeDelayTime": 1.4,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "395f9726-f1ff-4499-96c1-c939d82e9b61"
     },
@@ -72,7 +72,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ragnar you are \nawake!",
+          "Ragnar Ragnar \ncome!",
           "We are under attack,\ncome with me ",
           "i will give you a \nsword"
         ],
@@ -90,11 +90,57 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 1,
+        "closeDelayTime": 1.4,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e7e8ea04-92e4-4bbc-9960-831f6e6b1724"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "moveType": "horizontal",
+        "useCollisions": true,
+        "__collapse": false
+      },
+      "id": "0cbdccd2-34c8-448c-98b6-c41419162f9d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What?? Attacked\nBy who?",
+          "By the saxons come\nquickly!",
+          "i will give you a \nsword"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1.4,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "48ceebc7-37bf-441b-83f9-f1eb1a113ef9"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",

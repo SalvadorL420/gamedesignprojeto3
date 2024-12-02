@@ -34,10 +34,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "We made a pact\nwith the english",
+          "We made a pact\nwith the saxons",
           "to settle here to \nfarm and thrive",
           "but then...",
-          "the english \nattacked "
+          "the saxons\nattacked "
         ],
         "__section": "text",
         "avatarId": "",

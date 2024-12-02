@@ -27,8 +27,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "We came from the\nsea...",
-          "to look for new\nriches and glory"
+          "We came from \nNorway ...",
+          "Our land was dying\nso we sailed to",
+          "England to look for \nnew lands to farm"
         ],
         "__section": "behavior",
         "avatarId": "",
