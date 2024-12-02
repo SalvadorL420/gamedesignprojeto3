@@ -37,8 +37,9 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 0.8,
-        "closeDelayFrames": 30
+        "closeDelayTime": 1.3,
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "395f9726-f1ff-4499-96c1-c939d82e9b61"
     },
@@ -63,7 +64,7 @@
         },
         "moveType": "horizontal",
         "useCollisions": true,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "16110519-7f02-45ef-a9a2-fad26efbe36f"
     },
@@ -90,7 +91,8 @@
         "closeWhen": "text",
         "closeButton": "a",
         "closeDelayTime": 1,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "e7e8ea04-92e4-4bbc-9960-831f6e6b1724"
     },
@@ -108,14 +110,15 @@
         },
         "moveType": "horizontal",
         "useCollisions": true,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "5b4fe98a-c359-47f1-8e15-af0b8e9bd0eb"
     },
     {
       "command": "EVENT_ACTOR_ACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "13d98d5c-1360-4703-accf-bc7414235e51"
     },
@@ -132,7 +135,8 @@
           "value": 17
         },
         "moveType": "horizontal",
-        "useCollisions": false
+        "useCollisions": false,
+        "__collapse": true
       },
       "id": "c2c25e1b-3818-4076-9bf7-ea49855397dc"
     }

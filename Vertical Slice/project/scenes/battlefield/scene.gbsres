@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "3df12da6-29cd-44e7-a76b-518f247355f7",
   "_index": 2,
-  "name": "Scene 5",
+  "name": "Battlefield",
   "backgroundId": "1a31d5ab-9874-42a7-82b1-4ce2ad922d2f",
   "tilesetId": "",
   "width": 20,
@@ -10,24 +10,12 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "002+0f3+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+009+0f4+003+0f4+009+0f!00!0f2+003+0f4+009+0f!002+0f!003+0f4+009+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f4+0010+0f4+0010+0f4+002a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 744,
   "y": 248,
-  "script": [
-    {
-      "command": "EVENT_ACTOR_SET_COLLISION_BOX",
-      "args": {
-        "actorId": "3d67469f-c833-44b7-b706-8e4e97239608",
-        "x": 7,
-        "y": 0,
-        "width": 16,
-        "height": 16
-      },
-      "id": "b72b24f8-2f77-4ab6-8723-2d2bc00cf8b1"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

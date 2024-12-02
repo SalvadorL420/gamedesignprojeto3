@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "222adb18-c4ee-4b8c-a076-788472beaef7",
-  "name": "first menu",
-  "symbol": "bg_first_menu",
+  "id": "8a3ba799-27c2-4ce8-855b-caaf2eb1b264",
+  "name": "boss scene",
+  "symbol": "bg_boss_scene",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "first menu.png",
+  "filename": "boss scene.png",
   "tileColors": "",
   "autoColor": false
 }

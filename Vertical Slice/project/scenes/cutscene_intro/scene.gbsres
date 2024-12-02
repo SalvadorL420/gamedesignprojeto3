@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "b39a7a46-a4a5-4197-abd0-c6b8a069e03e",
   "_index": 4,
-  "name": "Scene 2",
+  "name": "Cutscene Intro",
   "backgroundId": "1c9ed0cc-5213-49fb-b1c8-651a08b01298",
   "tilesetId": "",
   "width": 20,
@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "001e+0f!00149+",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 256,
@@ -44,7 +44,7 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 1.3,
+        "closeDelayTime": 1.5,
         "closeDelayFrames": 30
       },
       "id": "cba4399f-42fe-407f-bda2-7799e219a562"

@@ -20,6 +20,21 @@
       "id": "3",
       "name": "enemy2Hp",
       "symbol": "var_enemy2hp"
+    },
+    {
+      "id": "4",
+      "name": "Random direction",
+      "symbol": "var_random_direction"
+    },
+    {
+      "id": "5",
+      "name": "playerHealth",
+      "symbol": "var_playerhealth"
+    },
+    {
+      "id": "6",
+      "name": "isHit",
+      "symbol": "var_ishit"
     }
   ]
 }

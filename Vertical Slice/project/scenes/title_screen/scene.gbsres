@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "81b73f38-1bb0-4fd3-984c-4e8867daa9c1",
   "_index": 1,
-  "name": "Scene 1",
+  "name": "Title Screen",
   "backgroundId": "2f44070b-ef83-4ee2-bb4c-f29cfca1a85a",
   "tilesetId": "",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 280,
-  "y": 240,
+  "x": 240,
+  "y": 232,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

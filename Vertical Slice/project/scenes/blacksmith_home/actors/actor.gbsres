@@ -1,20 +1,26 @@
 {
-  "_resourceType": "trigger",
-  "id": "61f39dfa-1683-4770-b108-ceee3ea09a47",
+  "_resourceType": "actor",
+  "id": "a45b15a1-87f5-4b07-a054-6964f918944c",
   "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "45f6420e-618d-4865-b3c1-e71b2dad8233",
   "prefabId": "",
-  "x": 6,
-  "y": 9,
-  "symbol": "trigger_1",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
+  "symbol": "actor_1",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "b"
+          "a"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -35,7 +41,7 @@
                   "value": 0
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -64,50 +70,58 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "0c2fc1d7-abda-42fb-8fb7-a4c0216efeda"
+                  "id": "96500e96-0727-4f40-b9e7-ea5be4c7bf45"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "0"
                   },
-                  "id": "6e262c81-71f2-4821-b3d1-65df487c1e43"
+                  "id": "31d9481f-e079-4a52-8554-42b6c5fa4470"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "i already gave you\nthe sword"
+                    ],
+                    "__section": "behavior",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "871af53c-8d37-401b-a599-e12a529dd8bc"
+                }
+              ]
             },
-            "id": "73fcd983-36f9-4750-9d9f-1da9c0398e40"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "i already gave you\nthe sword"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "8dabf1db-0100-4a29-bcdb-d8c0811e3efa"
+            "id": "422b63dc-dbe4-444c-a7bc-cc5ad04e7305"
           }
         ]
       },
-      "id": "be690009-6750-468f-bf90-7ba0979cbfb7"
+      "id": "7ddbe67f-2c2c-4212-9e00-bc092b325cb8"
     }
   ],
-  "leaveScript": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 2,
   "_index": 0
 }
