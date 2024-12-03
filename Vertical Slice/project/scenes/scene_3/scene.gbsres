@@ -39,7 +39,7 @@
           "but then...",
           "the saxons\nattacked "
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -53,7 +53,7 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 1.5,
+        "closeDelayTime": 1.8,
         "closeDelayFrames": 30
       },
       "id": "54a9b0d0-9a68-4cc2-a6c5-2cd894077064"

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ece6b0fa-e0a3-480b-8d05-6f5eef3876a7",
+  "_index": 6,
+  "name": "Boss Scene",
+  "backgroundId": "8a3ba799-27c2-4ce8-855b-caaf2eb1b264",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 1128,
+  "y": 272,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -40,7 +40,7 @@
         "actorId": "a45b15a1-87f5-4b07-a054-6964f918944c",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 8
         },
         "y": {
           "type": "number",
@@ -48,7 +48,7 @@
         },
         "moveType": "vertical",
         "useCollisions": true,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0e8df794-648b-46b9-82ea-abc531583c6a"
     },
@@ -64,11 +64,11 @@
           "type": "number",
           "value": 9
         },
-        "moveType": "horizontal",
-        "useCollisions": false,
-        "__collapse": true
+        "moveType": "vertical",
+        "useCollisions": true,
+        "__collapse": false
       },
-      "id": "c6a7e60a-d585-4459-87ba-335643c6069b"
+      "id": "fe89747d-fd70-4f8f-bdd9-176d656bf8c6"
     }
   ],
   "playerHit1Script": [],
