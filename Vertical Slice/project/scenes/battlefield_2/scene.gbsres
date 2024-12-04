@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "b71a8745-53b9-4375-b38d-be0008e801f2",
+  "_index": 7,
+  "name": "Battlefield 2",
+  "backgroundId": "1a31d5ab-9874-42a7-82b1-4ce2ad922d2f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 960,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

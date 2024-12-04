@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "446aa79d-95e9-4ec9-8d46-357f1761bf13",
+  "_index": 8,
+  "name": "Battlefield 3",
+  "backgroundId": "1a31d5ab-9874-42a7-82b1-4ce2ad922d2f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 952,
+  "y": 288,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
