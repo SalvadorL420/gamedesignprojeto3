@@ -10,19 +10,19 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "002+0f3+0010+0f4+0010+0f4+0010+0ff+005+0f4+0010+0f4+0010+0f4+009+0f4+003+0f4+009+0f!00!0f2+003+0f4+009+0f!002+0f!003+0f4+009+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f4+0010+0f4+0010+0f4+002+0f8+0020+",
+  "collisions": "002+0f3+0010+0f4+0010+0f4+0010+0ff+005+0f4+0010+0f4+0010+0f4+009+0f4+003+0f4+009+0f!00!0f2+003+0f4+009+0f!002+0f!003+0f4+009+0f!002+0f!0013+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f4+0010+0f4+0010+0f4+002+0f8+0020+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 744,
-  "y": 248,
+  "x": 760,
+  "y": 368,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "There they are \nthe saxons why ",
+          "There they are. \nThe saxons,why ",
           "Would they attack now?\nI will save my",
-          "people from them"
+          "People from them."
         ],
         "__section": "text",
         "avatarId": "",
@@ -44,6 +44,16 @@
       "id": "3b5783cd-280b-4441-a91b-d1596af306b4"
     },
     {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Press x to attack",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "532e1ea9-bd09-4408-b100-a14a15aba1ec"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "1",
@@ -57,7 +67,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press",

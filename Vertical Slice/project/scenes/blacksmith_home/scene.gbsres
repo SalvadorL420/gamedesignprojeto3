@@ -13,8 +13,8 @@
   "collisions": "008+0f3+00c+0f2+004+0f2+00d+0f2+00e+0f!003+0f3+00d+0f!003+0f4+00c+0f!003+0f!002+0f!00c+0f5+00!0f2+007+0f3+002+0f8+008+0f2+0016+0f2+0013+0f2+0021+0f3+003+0f4+00b+0f2+003+0f4+005e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 760,
-  "y": 456,
+  "x": 688,
+  "y": 704,
   "script": [
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -69,10 +69,20 @@
         "__collapse": false
       },
       "id": "fe89747d-fd70-4f8f-bdd9-176d656bf8c6"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Press Z to interact",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "ece4a600-fdea-4424-873c-8d4ca57b7b37"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "a3374bba-dd8a-4b1b-a949-33ad07fd6ee6"
+  "playerSpriteSheetId": "54c65bb5-fb6b-4983-adaf-3cf4d833292d"
 }

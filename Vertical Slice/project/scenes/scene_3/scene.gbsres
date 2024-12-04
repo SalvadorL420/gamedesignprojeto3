@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 536,
-  "y": 464,
+  "x": 440,
+  "y": 656,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -35,9 +35,9 @@
       "args": {
         "text": [
           "We made a pact\nwith the saxons",
-          "to settle here to \nfarm and thrive",
+          "To settle here to \nfarm and thrive",
           "but then...",
-          "the saxons\nattacked "
+          "The saxons\nattacked."
         ],
         "__section": "behavior",
         "avatarId": "",

@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "3df12da6-29cd-44e7-a76b-518f247355f7",
-  "startX": 2,
-  "startY": 15,
+  "startSceneId": "ece6b0fa-e0a3-480b-8d05-6f5eef3876a7",
+  "startX": 9,
+  "startY": 13,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "up",
@@ -14,7 +14,7 @@
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
-    "default-bg-5",
+    "default-bg-1",
     "default-bg-6",
     "dmg",
     "default-ui"

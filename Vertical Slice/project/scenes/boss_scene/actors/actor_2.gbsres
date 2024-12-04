@@ -1,0 +1,104 @@
+{
+  "_resourceType": "actor",
+  "id": "31b23dab-b4b5-4af2-bff7-890e69c5a74f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9f612448-0d2c-4de1-b6c8-05754c15a9ae",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 63,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_14",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "$self$",
+        "operator": ">",
+        "distance": {
+          "type": "number",
+          "value": 4
+        },
+        "otherActorId": "player",
+        "__collapseElse": true,
+        "__collapse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "9f612448-0d2c-4de1-b6c8-05754c15a9ae",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "target",
+              "otherActorId": "player",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "player",
+              "initialOffset": 15,
+              "speed": 1,
+              "animSpeed": 63,
+              "lifeTime": 1.5,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "player",
+                "1"
+              ]
+            },
+            "id": "75b8d635-cd86-4f1a-b2a8-53862db6a01f"
+          }
+        ],
+        "false": []
+      },
+      "id": "3579e581-94c9-41d2-9a04-1b2326d9f78f"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<",
+        "distance": {
+          "type": "number",
+          "value": 5
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0b21ed5f-8e71-4e2e-8c69-67bec5cc3167"
+          }
+        ],
+        "false": []
+      },
+      "id": "6bff4f65-7600-4ce5-8a7d-96703c32d4a2"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 5,
+  "_index": 1
+}

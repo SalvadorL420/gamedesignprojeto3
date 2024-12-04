@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "bbf70483-8d9b-4e18-a272-b21f6c226639",
   "prefabId": "",
-  "direction": "up",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -28,7 +28,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0cca6c6d-5783-460f-9cfa-a34b544542a2",
+  "name": "boss defeated",
+  "symbol": "bg_boss_defeated",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "boss defeated.png",
+  "tileColors": ""
+}

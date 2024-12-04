@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "45f6420e-618d-4865-b3c1-e71b2dad8233",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -39,9 +39,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Grab the sword \nfrom the chest",
-                "now head to the \nbattlefield and",
-                "help us defeat the\nenglish"
+                "Grab the sword \nfrom the chest.",
+                "Now head to the \nbattlefield and",
+                "help us defeat the\nsaxons."
               ],
               "__section": "text",
               "avatarId": "",

@@ -13,15 +13,15 @@
   "collisions": "005+0f!008+0f2+008+0fc+007+0f3+009+0f!007+0f4+006+0f3+007+0f4+006+0f4+006+0f4+006+0f3+004+0f9+002+0f9+008+0f4+00d0+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 536,
-  "y": 232,
+  "x": 528,
+  "y": 352,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "what a beautiful \nday in the colony",
-          "peace... i think i \nlike it "
+          "What a beautiful \nday in the colony",
+          "Peace... I think I \nlike it. "
         ],
         "__section": "behavior",
         "avatarId": "",
@@ -72,9 +72,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ragnar Ragnar \ncome!",
-          "We are under attack,\ncome with me ",
-          "i will give you a \nsword"
+          "Ragnar, Ragnar \ncome!",
+          "We are under attack,\ncome with me.",
+          "I will give you a \nsword."
         ],
         "__section": "behavior",
         "avatarId": "",
@@ -118,7 +118,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "What?? Attacked\nBy who?",
+          "What? Attacked\nBy who?",
           "By the saxons come\nquickly!",
           "i will give you a \nsword"
         ],
@@ -190,5 +190,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "a3374bba-dd8a-4b1b-a949-33ad07fd6ee6"
+  "playerSpriteSheetId": "54c65bb5-fb6b-4983-adaf-3cf4d833292d"
 }

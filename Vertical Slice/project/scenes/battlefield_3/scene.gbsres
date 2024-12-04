@@ -10,11 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0048+0f7+00d+0f!005+0f16+0064+0f15+0013+0f!0013+0f2+004e+",
+  "collisions": "0048+0f7+00d+0f!005+0f16+0064+0f15+0013+0f!0013+0f!004f+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
-  "x": 1144,
-  "y": 56,
+  "x": 1008,
+  "y": 376,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

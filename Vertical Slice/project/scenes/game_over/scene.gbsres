@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "81b73f38-1bb0-4fd3-984c-4e8867daa9c1",
-  "_index": 1,
-  "name": "Title Screen",
-  "backgroundId": "9c65cc7d-9375-4a12-9aae-da434f2891e0",
+  "id": "eabedbdc-2417-43a3-b940-cc0eb59a0214",
+  "_index": 9,
+  "name": "Game Over",
+  "backgroundId": "61204e97-048c-420c-a99c-8dd1eac564a1",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,56 +12,52 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
-  "x": 264,
-  "y": 336,
+  "symbol": "scene_10",
+  "x": 1056,
+  "y": 136,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start"
+          "b"
         ],
         "override": true,
-        "__scriptTabs": "press",
-        "__collapse": false
+        "__scriptTabs": "press"
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "b39a7a46-a4a5-4197-abd0-c6b8a069e03e",
+              "sceneId": "ece6b0fa-e0a3-480b-8d05-6f5eef3876a7",
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 16
               },
               "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": false
+              "fadeSpeed": "2"
             },
-            "id": "db307c77-99ca-4a39-8c41-e0f614389c13"
+            "id": "01959915-b9a0-4efa-b231-b5f2ee4800fb"
           }
         ]
       },
-      "id": "941bd0f1-2561-4605-b652-670950447ce1"
+      "id": "7d4b4b35-bcce-4cad-96e9-372734fc612d"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "player",
-        "__collapse": true
+        "actorId": "player"
       },
-      "id": "6e875f88-7520-4356-ba42-638a18be62b9"
+      "id": "b1e95aec-d896-4dfd-8997-55ab9f066363"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "a3374bba-dd8a-4b1b-a949-33ad07fd6ee6"
+  "playerSpriteSheetId": "e42fcb0e-6ff7-4752-ad06-2acc80abdfa6"
 }
