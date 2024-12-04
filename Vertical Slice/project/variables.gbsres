@@ -8,8 +8,8 @@
     },
     {
       "id": "1",
-      "name": "isAttacking",
-      "symbol": "var_isattacking"
+      "name": "canAttack",
+      "symbol": "var_canattack"
     },
     {
       "id": "2",
@@ -50,6 +50,16 @@
       "id": "9",
       "name": "Player x",
       "symbol": "var_player_x"
+    },
+    {
+      "id": "10",
+      "name": "isAttacking",
+      "symbol": "var_isattacking"
+    },
+    {
+      "id": "3df12da6-29cd-44e7-a76b-518f247355f7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }
