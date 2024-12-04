@@ -247,7 +247,7 @@
         "operation": "down",
         "otherActorId": "$self$",
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {

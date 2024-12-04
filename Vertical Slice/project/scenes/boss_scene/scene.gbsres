@@ -10,13 +10,14 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0015+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!00!0f2+0010+0f!002+0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!00!0f5+004+0f8+00!0f!0010+0f!002+0f!0010+0f!002+0f7+004+0f7+002+0f!0010+0f!002+0f!0010+0f!00!",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 1128,
-  "y": 376,
+  "x": 1120,
+  "y": 608,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "e42fcb0e-6ff7-4752-ad06-2acc80abdfa6"
 }

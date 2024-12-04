@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "54c65bb5-fb6b-4983-adaf-3cf4d833292d",
-  "name": "image (3)",
+  "name": "player",
   "symbol": "sprite_image_3_",
   "numFrames": 3,
-  "filename": "image (3).png",
+  "filename": "player.png",
   "checksum": "7acf291fdeefb05ce17ba5073b8e58d5e6544046",
   "width": 48,
   "height": 16,
