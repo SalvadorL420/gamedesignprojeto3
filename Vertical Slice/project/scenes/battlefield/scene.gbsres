@@ -42,6 +42,55 @@
         "closeDelayFrames": 30
       },
       "id": "3b5783cd-280b-4441-a91b-d1596af306b4"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "3d67469f-c833-44b7-b706-8e4e97239608"
+                  },
+                  "id": "3ae79ec0-4b75-4400-921b-f5a655dc4929"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+                  "args": {
+                    "actorId": "3d67469f-c833-44b7-b706-8e4e97239608",
+                    "x": 0,
+                    "y": 0,
+                    "width": 16,
+                    "height": 16
+                  },
+                  "id": "51432da0-d0e6-4372-a217-307c4eea707d"
+                }
+              ],
+              "false": []
+            },
+            "id": "dbeec769-92d5-4556-9404-3a23f2ab4f11"
+          }
+        ]
+      },
+      "id": "10c9b147-5093-4f8b-9641-8a78eebc0dac"
     }
   ],
   "playerHit1Script": [],

@@ -35,6 +35,21 @@
       "id": "6",
       "name": "isHit",
       "symbol": "var_ishit"
+    },
+    {
+      "id": "7",
+      "name": "Shoot timer",
+      "symbol": "var_shoot_timer"
+    },
+    {
+      "id": "8",
+      "name": "Player Y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "9",
+      "name": "Player x",
+      "symbol": "var_player_x"
     }
   ]
 }
