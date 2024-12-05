@@ -71,14 +71,29 @@
       "id": "fe89747d-fd70-4f8f-bdd9-176d656bf8c6"
     },
     {
-      "command": "EVENT_TEXT_DRAW",
+      "command": "EVENT_TEXT",
       "args": {
-        "text": "Press Z to interact",
-        "x": 1,
-        "y": 1,
-        "location": "background"
+        "text": [
+          "Press Z to interact\nwith characters and \nobjects."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30
       },
-      "id": "ece4a600-fdea-4424-873c-8d4ca57b7b37"
+      "id": "0e484566-3010-4dec-b5ad-84732d7d99b8"
     }
   ],
   "playerHit1Script": [],

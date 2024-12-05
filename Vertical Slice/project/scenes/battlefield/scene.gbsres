@@ -10,12 +10,23 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "002+0f3+0010+0f4+0010+0f4+0010+0ff+005+0f4+0010+0f4+0010+0f4+009+0f4+003+0f4+009+0f!00!0f2+003+0f4+009+0f!002+0f!003+0f4+009+0f!002+0f!0013+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f4+0010+0f4+0010+0f4+002+0f8+0020+",
+  "collisions": "002+0f3+0010+0f4+0010+0f4+0010+0ff+005+0f4+0010+0f4+0010+0f4+009+0f4+003+0f4+009+0f!00!0f2+003+0f4+009+0f!002+0f!003+0f4+009+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f4+0010+0f4+0010+0f4+002+0f8+0020+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 760,
   "y": 368,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "55fd1cd2-6a71-4051-90b9-ba8bf960f000"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -44,14 +55,29 @@
       "id": "3b5783cd-280b-4441-a91b-d1596af306b4"
     },
     {
-      "command": "EVENT_TEXT_DRAW",
+      "command": "EVENT_TEXT",
       "args": {
-        "text": "Press x to attack",
-        "x": 1,
-        "y": 1,
-        "location": "background"
+        "text": [
+          "Press X to attack"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30
       },
-      "id": "532e1ea9-bd09-4408-b100-a14a15aba1ec"
+      "id": "06c09e04-257c-4a47-aced-4afb34a1c2a2"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -100,7 +126,7 @@
                 {
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
-                    "__section": "projectile",
+                    "__section": "source",
                     "spriteSheetId": "364e1501-0a36-4765-a9a8-1377afadc4d3",
                     "spriteStateId": "",
                     "actorId": "$self$",
@@ -155,7 +181,75 @@
       "id": "a0757af8-4c4a-4ffb-91e9-bc40d85119b7"
     }
   ],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "11"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You died.."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e4dd8ce8-4635-48a3-ae2d-1f2992af1b70"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3df12da6-29cd-44e7-a76b-518f247355f7",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "fa24b054-cd0d-42fb-bf4b-ccb66573f7e1"
+          }
+        ],
+        "false": []
+      },
+      "id": "8dfa007a-fbfa-46a9-b34f-6491d87895a4"
+    }
+  ],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "e42fcb0e-6ff7-4752-ad06-2acc80abdfa6"

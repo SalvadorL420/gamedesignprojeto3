@@ -28,7 +28,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -46,7 +46,7 @@
           {
             "command": "EVENT_DEC_VALUE",
             "args": {
-              "variable": "5"
+              "variable": "11"
             },
             "id": "ab11d3c2-3a30-4629-92bc-6738b172d2d8"
           },
@@ -122,6 +122,40 @@
         "false": []
       },
       "id": "223d2bdc-c970-4b40-9d8d-8e2f878f95b9"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "right",
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": false,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "vertical",
+              "useCollisions": true
+            },
+            "id": "8a3e92f6-7d23-41e3-bd63-52190c8e1f82"
+          }
+        ],
+        "false": []
+      },
+      "id": "aaa0d1a5-8adf-4e95-afc5-5f09b5d304ff"
     }
   ],
   "hit1Script": [

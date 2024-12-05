@@ -29,11 +29,19 @@
         },
         "otherActorId": "player",
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__disableElse": true
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "8dd890c1-32a7-4a0d-aa94-4c79c22e253c"
+          },
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {

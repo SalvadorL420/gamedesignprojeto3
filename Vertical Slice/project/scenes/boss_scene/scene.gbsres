@@ -24,7 +24,7 @@
           "type": "number",
           "value": 7
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "8b3787de-5b4d-4ee9-8a0a-8e6817bc9c6f"
     },
@@ -32,7 +32,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press",

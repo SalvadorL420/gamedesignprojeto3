@@ -122,6 +122,40 @@
         "false": []
       },
       "id": "2598cb5b-36c9-4dd7-b0f1-c1f13bdba8e6"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "right",
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": false,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "vertical",
+              "useCollisions": true
+            },
+            "id": "258fbb5d-daa8-45c8-8d44-b7ebd0bd9d82"
+          }
+        ],
+        "false": []
+      },
+      "id": "9d2832b0-1f6e-4b47-99bc-a23693a6c195"
     }
   ],
   "hit1Script": [
