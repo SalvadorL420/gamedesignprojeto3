@@ -57,24 +57,24 @@
       "symbol": "var_isattacking"
     },
     {
-      "id": "3df12da6-29cd-44e7-a76b-518f247355f7__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
       "id": "11",
       "name": "playerHp",
       "symbol": "var_playerhp"
     },
     {
-      "id": "7b937da2-29c5-4aa8-9461-66d9304d8b99__L0",
-      "name": "Local 0",
-      "symbol": "var_local_1"
-    },
-    {
       "id": "12",
       "name": "respawn",
       "symbol": "var_respawn"
+    },
+    {
+      "id": "3df12da6-29cd-44e7-a76b-518f247355f7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "7b937da2-29c5-4aa8-9461-66d9304d8b99__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ]
 }

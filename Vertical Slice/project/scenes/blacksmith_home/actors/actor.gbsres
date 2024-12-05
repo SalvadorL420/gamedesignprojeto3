@@ -39,7 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Grab the sword \nfrom the chest.",
+                "Grab the sword \nfrom that chest\nover there.",
                 "Now head to the \nbattlefield and",
                 "help us defeat the\nsaxons."
               ],
